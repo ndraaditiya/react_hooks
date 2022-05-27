@@ -5,7 +5,7 @@ const Detail = ({ id, nama_barang, harga }) => {
     const { dispatch } = useContext(ItemContext)
     return (
         <li>
-            {nama_barang} ({harga})
+            {nama_barang} ({harga.toLocaleString('id-ID')})
             <button className="button" onClick={() => dispatch({ type: 'HAPUS_DATA', payload: id})}>Hapus</button>
         </li>
     )
