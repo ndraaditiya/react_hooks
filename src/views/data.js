@@ -13,5 +13,10 @@ export const data = [
         id: 3,
         nama_barang: 'keyboard',
         harga: 350000
+    },
+    {
+        id: 4,
+        nama_barang: 'monitor',
+        harga: 3500000
     }
 ]
