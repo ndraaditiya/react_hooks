@@ -7,7 +7,7 @@ const List = () => {
 
     return (
         <Context>
-            <h1>React Hooks</h1>
+            <h1>ndr lagi nyobain React Hooks</h1>
             <Input />
             <Item />
         </Context>
