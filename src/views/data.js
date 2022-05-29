@@ -6,16 +6,11 @@ export const data = [
     },
     {
         id: 2,
-        nama_barang: 'laptop',
-        harga: 7500000
-    },
-    {
-        id: 3,
         nama_barang: 'keyboard',
         harga: 350000
     },
     {
-        id: 4,
+        id: 3,
         nama_barang: 'monitor',
         harga: 3500000
     }
