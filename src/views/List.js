@@ -27,7 +27,7 @@ const List = () => {
             <Item />
             <p>
                 <span style={{fontWeight: 'bold'}}> Random cat's fact: </span><br/>
-                <span style={{fontSize: 17, marginLeft: 10, marginRight: 10}}>{data}</span>
+                <span style={{fontSize: 15, marginLeft: 10, marginRight: 10}}>{data}</span>
             </p>
             <br/>
         </Context>
